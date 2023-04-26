@@ -5,22 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>plan your life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header -->
     <header>
-      <nav>
-        <a href="./index.html">PlanY</a>
-        <ul>
-          <li><a href="./index.html"></a>Home</li>
-          <li><a href="./index.html">Blog</a></li>
-          <li><a href="./index.html">Features</a></li>
-          <li><a href="./index.html">Pricing</a></li>
-          <li><a href="./index.html">Documentation</a></li>
+      <nav class="page-nav">
+        <!-- Logo -->
+        <a class="logo-link link" href="./index.html"
+          >Plan<span class="logo-color">Y</span></a
+        >
+        <!-- Navigation -->
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Documentation</a>
+          </li>
         </ul>
-        <ul>
-          <li>
+        <!-- Social network -->
+        <ul class="social-list list">
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://www.facebook.com/"
               aria-label="Facebook link"
               target="_blank"
@@ -28,8 +51,9 @@
               >Facebook</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://telegram.org/"
               aria-label="Telegram link"
               target="_blank"
@@ -37,8 +61,9 @@
               >Telegram</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://twitter.com/"
               aria-label="twitter link"
               target="_blank"
@@ -46,8 +71,9 @@
               >Twitter</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://m.com/"
               aria-label="M link"
               target="_blank"
@@ -56,7 +82,8 @@
             >
           </li>
         </ul>
-        <button type="button">Get started</button>
+        <!-- Btn Get Started -->
+        <button class="modal-btn-blue" type="button">Get started</button>
       </nav>
     </header>
     <main>

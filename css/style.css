@@ -1,0 +1,83 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #3d4f9f;
+  --secondary-text-color: #8d96bd;
+  --text-color-hover: #4c85ff;
+
+  --accent-color: #4c85ff;
+  --background-color: #ffffff;
+  --background-btn-filters: #f4f4fd;
+}
+
+ol,
+.list {
+  list-style: none;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*=============== Header ================= */
+
+.logo-link {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.21;
+  color: var(--primary-text-color);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #697ca6;
+}
+.nav-link:hover,
+.nav-link:focus {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #5e81fe;
+}
+
+.modal-btn-blue {
+  font-family: 'Quicksand', sans-seri;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.23;
+  width: 113px;
+  height: 43px;
+  cursor: pointer;
+  border: none;
+  background: #d2e1ff;
+  color: #3a79ff;
+}
+
+.modal-btn-blue:hover,
+.modal-btn-blue:focus {
+  background: #4c85ff;
+  color: white;
+}
