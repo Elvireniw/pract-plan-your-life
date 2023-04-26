@@ -1,11 +1,12 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Quicksand', sans-serif;
   --primary-text-color: #3d4f9f;
   --secondary-text-color: #8d96bd;
-  --text-color-hover: #4c85ff;
-
   --accent-color: #4c85ff;
-  --background-color: #ffffff;
+  --first-background-color: #d2e1ff;
+  --second-background-color: #f3f6ff;
+  --third-background-color: #d2e1ff;
   --background-btn-filters: #f4f4fd;
 }
 
@@ -22,10 +23,61 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*=============== Header ================= */
+/*=============== Components ================= */
+
+.modal-btn-blue {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.23;
+  width: 113px;
+  height: 43px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--first-background-color);
+  color: var(--accent-color);
+}
+
+.modal-btn-blue:hover,
+.modal-btn-blue:focus {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.93;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.title {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/*=============== Components ================= */
+
+/*=============== Header ===================== */
 
 .logo-link {
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 28px;
   line-height: 1.21;
@@ -37,7 +89,7 @@ body {
 }
 
 .nav-link {
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 12px;
   line-height: 1.25;
@@ -46,11 +98,11 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  color: #697ca6;
+  color: var(--primary-text-color);
 }
 .nav-link:hover,
 .nav-link:focus {
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -60,11 +112,89 @@ body {
   letter-spacing: 0.05em;
   cursor: pointer;
   text-transform: capitalize;
-  color: #5e81fe;
+  color: var(--accent-color);
 }
 
-.modal-btn-blue {
-  font-family: 'Quicksand', sans-seri;
+/*=============== Header ================= */
+
+/*=============== Hero =================== */
+
+.hero-title {
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.hero-title-bold {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* .hero {
+  position: absolute;
+  width: 1440px;
+  background: linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+} */
+
+/*=============== Hero =================== */
+
+.partners-logo {
+  width: 116px;
+  height: 29px;
+}
+
+/* .partners {
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 650px;
+  background: #ffffff;
+} */
+
+/*=============== Hero =================== */
+
+/*=============== Plan manage ============= */
+
+.modal-btn-stroke {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.23;
+  width: 113px;
+  height: 43px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
+}
+
+.modal-btn-stroke:hover,
+.modal-btn-stroke:focus {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/*=============== Plan manage ============= */
+
+/*=============== About us ================ */
+
+.text-between-btn {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 177.04%;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.modal-btn-pink {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 13px;
   line-height: 1.23;
@@ -72,12 +202,220 @@ body {
   height: 43px;
   cursor: pointer;
   border: none;
-  background: #d2e1ff;
-  color: #3a79ff;
+  background-color: #ffd7d7;
+  color: #d43f3f;
 }
 
-.modal-btn-blue:hover,
-.modal-btn-blue:focus {
-  background: #4c85ff;
+.modal-btn-pink:hover,
+.modal-btn-pink:focus {
+  background-color: #d43f3f;
   color: white;
 }
+
+.about-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 177.04%;
+  /* text-align: center; */
+  color: var(--accent-color);
+}
+
+.about-us-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 177.04%;
+  /* text-align: center; */
+  color: var(--secondary-text-color);
+}
+
+/*=============== About us ================ */
+
+/*=============== Customers/Users ========== */
+
+.customers-users-title-left {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 83px;
+  /* text-align: right; */
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.customers-users-text-left {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.28;
+  /* text-align: right; */
+  letter-spacing: 0.03em;
+  /* color: #FFFFFF; */
+}
+
+.customers-users-title-right {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 83px;
+  /* text-align: right; */
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.customers-users-text-right {
+  font-family: var(--secondary-font) f;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.28;
+  /* text-align: right; */
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+/*=============== Customers/Users ========= */
+
+/*=============== Our blog ================ */
+
+.our-blog-title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.text-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8d96bd;
+}
+
+/*=============== Our blog ================ */
+
+/*=============== Review ================== */
+
+.review-title {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.review-text {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.27;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/*=============== Review ================== */
+
+/*=============== Get Started ============= */
+
+.get-started-subtitle {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+.get-started-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.93;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* color: #FFFFFFr); */
+}
+
+.get-started-title {
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.25;
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+
+.get-started-title-bold {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.25;
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+
+.modal-btn-stroke-white {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.23;
+  width: 113px;
+  height: 43px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.modal-btn-stroke-white:hover,
+.modal-btn-stroke-white:focus {
+  background-color: white;
+  color: var(--accent-color);
+}
+
+/*=============== Get Started ============= */
+
+/*=============== Sign Up ================= */
+
+.sign-up-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.sign-up-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.93;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/*=============== Sign Up ================= */
+
+/*=============== Footer= ================= */
+
+.footer-text {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+
+/*=============== Footer= ================ */

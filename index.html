@@ -87,215 +87,301 @@
       </nav>
     </header>
     <main>
-      <!-- banner -->
-      <section>
-        <p>PLAN YOUR LIFE</p>
-        <h1>Increase your productivity</h1>
-        <p>
+      <!-- Hero -->
+      <section class="hero">
+        <p class="subtitle">PLAN YOUR LIFE</p>
+        <h1 class="hero-title">
+          Increase your <span class="hero-title-bold">productivity</span>
+        </h1>
+        <p class="text">
           Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
           atqui laudem an, insolens gubergren similique est cu. Et vel modus
           congue vituperata.
         </p>
-        <a href="/"> <img src="./images/play-button.svg" alt="" /></a>
+        <a class="btn-play" href="/">
+          <img src="./images/play-button.svg" alt=""
+        /></a>
       </section>
       <!-- Our partners -->
-      <section>
-        <h2>Our partners</h2>
-        <ul>
-          <li>
-            <a href="/"><img src="./images/bitbucket.svg" alt="partner1" /></a>
+      <section class="partners">
+        <h2 hidden class="title">Our partners</h2>
+        <ul class="partners-list list">
+          <li class="partners-item">
+            <a class="partners-logo" href="/"
+              ><img src="./images/bitbucket.svg" alt="partner1"
+            /></a>
           </li>
-          <li>
-            <a href="/"
+          <li class="partners-item">
+            <a class="partners-logo" href="/"
               ><img src="./images/apple-watch.svg" alt="partner1"
             /></a>
           </li>
-          <li>
-            <a href="/"><img src="./images/facebook-p.svg" alt="partner1" /></a>
+          <li class="partners-item">
+            <a class="partners-logo" href="/"
+              ><img src="./images/facebook-p.svg" alt="partner1"
+            /></a>
           </li>
-          <li>
-            <a href="/"><img src="./images/atlassian.svg" alt="partner1" /></a>
+          <li class="partners-item">
+            <a class="partners-logo" href="/"
+              ><img src="./images/atlassian.svg" alt="partner1"
+            /></a>
           </li>
-          <li>
-            <a href="/"><img src="./images/audi.svg" alt="partner1" /></a>
+          <li class="partners-item">
+            <a class="partners-logo" href="/"
+              ><img src="./images/audi.svg" alt="partner1"
+            /></a>
           </li>
         </ul>
       </section>
       <!-- Plan and manage -->
-      <section>
-        <p>DESKTOP AND MOBILE APP</p>
-        <h2>Plan and manage</h2>
-        <p>
+      <section class="plan-manage">
+        <p class="subtitle">DESKTOP AND MOBILE APP</p>
+        <h2 class="title">Plan and manage</h2>
+        <p class="text">
           Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
           atqui laudem an, insolens gubergren similique est cu. Et vel modus
           congue vituperata. Solum patrioque no sea. Mea ex malis mollis
           oporteat. Eum an expetenda consequat.
         </p>
-        <button type="button">View video</button>
-        <a href="#">See features</a>
+        <button class="modal-btn-blue" type="button">View video</button>
+        <form action="#" rel="noreferrer noopene" target="_blank">
+          <button class="modal-btn-stroke">See features</button>
+        </form>
+
         <img src="./images/img-features.svg" alt="Features example" />
       </section>
       <!-- About us -->
-      <section>
-        <p>ABOUT US</p>
-        <h2>Read about our app</h2>
-        <ul>
-          <li>
-            <img src="./img-about-us/img-38.svg" alt="Overview" />
-            <h3>Overview</h3>
-            <p>
+      <section class="about-us">
+        <p class="subtitle">ABOUT US</p>
+        <h2 class="title">Read about our app</h2>
+        <ul class="about-us-list list">
+          <li class="about-us-item">
+            <img
+              class="about-us-icon"
+              src="./img-about-us/img-38.svg"
+              alt="Overview"
+            />
+            <h3 class="about-us-title">Overview</h3>
+            <p class="about-us-text">
               Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
             </p>
           </li>
-          <li>
-            <img src="./img-about-us/img-39.svg" alt="Files" />
-            <h3>Files</h3>
-            <p>
+          <li class="about-us-item">
+            <img
+              class="about-us-icon"
+              src="./img-about-us/img-39.svg"
+              alt="Files"
+            />
+            <h3 class="about-us-title">Files</h3>
+            <p class="about-us-text">
               No vim nulla vitae intellegat. Ei enim error ius, solet atomorum
               conceptam ex has.
             </p>
           </li>
-          <li>
-            <img src="./img-about-us/img-40.svg" alt="Meeting-chats" />
-            <h3>Meeting chats</h3>
-            <p>Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+          <li class="about-us-item">
+            <img
+              class="about-us-icon"
+              src="./img-about-us/img-40.svg"
+              alt="Meeting-chats"
+            />
+            <h3 class="about-us-title">Meeting chats</h3>
+            <p class="about-us-text">
+              Vim ne tacimates neglegentur. Erat diceret omittam at est.
+            </p>
           </li>
-          <li>
-            <img src="./img-about-us/img-41.svg" alt="Save-events" />
-            <h3>Save events</h3>
-            <p>Nisl idque mel ea, nominati voluptatum.</p>
+          <li class="about-us-item">
+            <img
+              class="about-us-icon"
+              src="./img-about-us/img-41.svg"
+              alt="Save-events"
+            />
+            <h3 class="about-us-title">Save events</h3>
+            <p class="about-us-text">Nisl idque mel ea, nominati voluptatum.</p>
           </li>
         </ul>
-        <a href="#">Read more</a>
-        <p>OR</p>
-        <a href="#">Get started</a>
+        <form action="#" rel="noreferrer noopene" target="_blank">
+          <button class="modal-btn-pink">Read more</button>
+        </form>
+        <p class="text-between-btn">OR</p>
+        <form action="#" rel="noreferrer noopene" target="_blank">
+          <button class="modal-btn-blue">Get started</button>
+        </form>
       </section>
       <!-- Our customers and users -->
-      <section>
-        <h2>Our customer and users</h2>
-        <ul>
-          <li>
-            <img src="./img-customers/custom.svg" alt="icon-customers" />
-            <p>89%</p>
-            <p>Customers who have increased their productivity</p>
+      <section class="customers-users">
+        <h2 hidden class="title">Our customer and users</h2>
+        <ul class="customers-users-list list">
+          <li class="customers-users-item">
+            <img
+              class="customers-users-icon"
+              src="./img-customers/custom.svg"
+              alt="icon-customers"
+            />
+            <p class="customers-users-title-left">89%</p>
+            <p class="customers-users-text-left">
+              Customers who have increased their productivity
+            </p>
           </li>
-          <li>
-            <img src="./img-customers/users.svg" alt="icon-users" />
-            <p>3123</p>
-            <p>Users who have used our application</p>
+          <li class="customers-users-item">
+            <img
+              class="customers-users-icon"
+              src="./img-customers/users.svg"
+              alt="icon-users"
+            />
+            <p class="customers-users-title-right">3123</p>
+            <p class="customers-users-text-right">
+              Users who have used our application
+            </p>
           </li>
         </ul>
       </section>
       <!-- Our blog -->
       <section>
-        <p>OUR RESOURCES</p>
-        <h2>Start reading our blog</h2>
-        <ul>
-          <li>
-            <img src="./img-our-blog/blog-1.svg" alt="note-with-pencil" />
-          </li>
-          <li>
+        <p class="subtitle">OUR RESOURCES</p>
+        <h2 class="title">Start reading our blog</h2>
+        <ul class="our-blog-list list">
+          <li class="our-blog-item">
             <img
+              class="our-blog-photo-1"
+              src="./img-our-blog/blog-1.svg"
+              alt="note-with-pencil"
+            />
+          </li>
+          <li class="our-blog-item">
+            <img
+              class="our-blog-photo-2"
               src="./img-our-blog/blog-2.svg"
               alt="laptop-with-coffee-and-milk"
             />
           </li>
-          <li>
-            <img src="./img-our-blog/blog-3.svg" alt="man-looking-at-board" />
+          <li class="our-blog-item">
+            <img
+              class="our-blog-photo-3"
+              src="./img-our-blog/blog-3.svg"
+              alt="man-looking-at-board"
+            />
           </li>
         </ul>
-        <h3>How to start planning</h3>
-        <p>
+        <h3 class="our-blog-title">How to start planning</h3>
+        <p class="text">
           Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
           vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
           Natum petentium principes mei ea. Tota everti periculis vis ei, quas
           tibique pro at, eos ut decore ...
         </p>
-        <ul>
-          <li><a href="#">Read now</a></li>
-          <li><a href="#">Add to your bookmarks</a></li>
+        <ul class="about-us-link list">
+          <li>
+            <form action="#" rel="noreferrer noopene" target="_blank">
+              <button class="modal-btn-blue">Read now</button>
+            </form>
+          </li>
+          <li><a class="text-link link" href="#">Add to your bookmarks</a></li>
         </ul>
       </section>
-      <!-- TESTIMONIALS -->
-      <section>
-        <h2>TESTIMONIALS</h2>
-        <h3>Customers's quotes</h3>
-        <p>
+      <!-- Review -->
+      <section class="review">
+        <h2 class="subtitle">TESTIMONIALS</h2>
+        <h3 class="review-title">Customers's quotes</h3>
+        <p class="text">
           Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
           atqui laudem an.
         </p>
-        <ul>
-          <li>
-            <p>
+        <ul class="review-list list">
+          <li class="review-item">
+            <p class="text">
               Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
               usu vidit tractatos, vero tractatos ius an, in mel diceret
               persecuti.
             </p>
-            <img src="./img-testimon/photo-1.svg" alt="photo" />
+            <img
+              class="review-photo"
+              src="./img-testimon/photo-1.svg"
+              alt="photo"
+            />
           </li>
-          <li>
-            <p>
+          <li class="review-item">
+            <p class="text">
               Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
               usu vidit tractatos, vero tractatos ius an, in mel diceret
               persecuti.
             </p>
-            <img src="./img-testimon/photo-1.svg" alt="photo" />
+            <img
+              class="review-photo"
+              src="./img-testimon/photo-1.svg"
+              alt="photo"
+            />
           </li>
         </ul>
       </section>
       <!-- Customer help -->
-      <section>
-        <h2>Customer help</h2>
-        <p>Frequently asked questions</p>
-        <ul>
-          <li>
+      <section class="help">
+        <h2 class="subtitle">Customer help</h2>
+        <p class="title">Frequently asked questions</p>
+        <ul class="help-list list">
+          <li class="help-item">
             <img src="./img-help/down.svg" alt="arrow-down" />
-            <p>Reque insolens in vel?</p>
+            <p class="review-text">Reque insolens in vel?</p>
           </li>
-          <li>
+          <li class="help-item">
             <img src="./img-help/down.svg" alt="arrow-down" />
-            <p>Vis rebum error graecis ea, id sit postea accusamus?</p>
+            <p class="review-text">
+              Vis rebum error graecis ea, id sit postea accusamus?
+            </p>
           </li>
-          <li>
+          <li class="help-item">
             <img src="./img-help/up.svg" alt="arrow-down" />
-            <p>Lorem repudiandae ne nec?</p>
-            <p>
+            <p class="review-text">Lorem repudiandae ne nec?</p>
+            <p class="text">
               Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
               usu vidit tractatos, vero tractatos ius an, in mel diceret
               persecuti. ?
             </p>
-            <button type="button">Go to documentation</button>
+            <button class="modal-btn-blue" type="button">
+              Go to documentation
+            </button>
           </li>
-          <li>
+          <li class="help-item">
             <img src="./img-help/down.svg" alt="arrow-down" />
-            <p>Ad dicit numquam vel. Et eos iudico feugait percipitur?</p>
+            <p class="review-text">
+              Ad dicit numquam vel. Et eos iudico feugait percipitur?
+            </p>
           </li>
-          <li>
+          <li class="help-item">
             <img src="./img-help/down.svg" alt="arrow-down" />
-            <p>
+            <p class="review-text">
               Sea no dico percipitur. Fierent constituam definitiones id eum?
             </p>
           </li>
         </ul>
       </section>
       <!-- Get started now -->
-      <section>
-        <p>PLAN YOUR LIFE</p>
-        <h2>Get started now</h2>
-        <p>
+      <section class="get-started">
+        <p class="get-started-subtitle">PLAN YOUR LIFE</p>
+        <h2 class="get-started-title">
+          Get <span class="get-started-title-bold">started</span> now
+        </h2>
+        <p class="get-started-text">
           Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
           atqui laudem an, insolens gubergren similique est cu. Et vel modus
           congue vituperata.
         </p>
-        <ul>
-          <li><button type="button">View pricing</button></li>
-          <li><button type="button">Read documentation</button></li>
+        <ul class="get-started-btn list">
+          <li>
+            <button class="modal-btn-stroke-white" type="button">
+              View pricing
+            </button>
+          </li>
+          <li>
+            <form action="#" rel="noreferrer noopene" target="_blank">
+              <button class="modal-btn-stroke-white">Read documentation</button>
+            </form>
+          </li>
         </ul>
       </section>
       <!-- Sign up -->
-      <section>
-        <h2>Sign up for newsletter</h2>
-        <p>
+      <section class="sign-up">
+        <h2 class="sign-up-title">Sign up for newsletter</h2>
+        <p class="sign-up-text">
           Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
           alterum.
         </p>
@@ -304,18 +390,34 @@
     </main>
     <!-- Footer -->
     <footer>
-      <nav>
-        <a href="./index.html">PlanY</a>
-        <ul>
-          <li><a href="./index.html"></a>Home</li>
-          <li><a href="./index.html">Blog</a></li>
-          <li><a href="./index.html">Features</a></li>
-          <li><a href="./index.html">Pricing</a></li>
-          <li><a href="./index.html">Documentation</a></li>
+      <nav class="page-nav">
+        <!-- Logo -->
+        <a class="logo-link link" href="./index.html"
+          >Plan<span class="logo-color">Y</span></a
+        >
+        <!-- Navigation -->
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Documentation</a>
+          </li>
         </ul>
-        <ul>
-          <li>
+        <!-- Social network -->
+        <ul class="social-list list">
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://www.facebook.com/"
               aria-label="Facebook link"
               target="_blank"
@@ -323,8 +425,9 @@
               >Facebook</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://telegram.org/"
               aria-label="Telegram link"
               target="_blank"
@@ -332,8 +435,9 @@
               >Telegram</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://twitter.com/"
               aria-label="twitter link"
               target="_blank"
@@ -341,8 +445,9 @@
               >Twitter</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="social-link link"
               href="https://m.com/"
               aria-label="M link"
               target="_blank"
@@ -351,9 +456,10 @@
             >
           </li>
         </ul>
-        <button type="button">Get started</button>
-        <p>Copyright &#169; 2018 by Random site</p>
+        <!-- Btn Get Started -->
+        <button class="modal-btn-blue" type="button">Get started</button>
       </nav>
+      <p class="footer-text">Copyright &copy; 2018 by Random site</p>
     </footer>
   </body>
 </html>
