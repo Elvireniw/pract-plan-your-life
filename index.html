@@ -11,229 +11,258 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav class="page-nav">
-        <!-- Logo -->
-        <a class="logo-link link" href="./index.html"
-          >Plan<span class="logo-color">Y</span></a
-        >
-        <!-- Navigation -->
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Documentation</a>
-          </li>
-        </ul>
-        <!-- Social network -->
-        <ul class="social-list list">
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://www.facebook.com/"
-              aria-label="Facebook link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Facebook</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://telegram.org/"
-              aria-label="Telegram link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Telegram</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://twitter.com/"
-              aria-label="twitter link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Twitter</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://m.com/"
-              aria-label="M link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >M</a
-            >
-          </li>
-        </ul>
-        <!-- Btn Get Started -->
-        <button class="modal-btn-blue" type="button">Get started</button>
-      </nav>
+    <header class="header-page">
+      <div class="container">
+        <nav class="page-nav">
+          <!-- Logo -->
+          <a class="logo-link link" href="./index.html"
+            >Plan<span class="logo-color">Y</span></a
+          >
+          <!-- Navigation -->
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Documentation</a>
+            </li>
+          </ul>
+          <!-- Social network -->
+          <div class="social-btn">
+            <ul class="social-list list">
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://www.facebook.com/"
+                  aria-label="Facebook link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://telegram.org/"
+                  aria-label="Telegram link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Telegram</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://twitter.com/"
+                  aria-label="twitter link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://m.com/"
+                  aria-label="M link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >M</a
+                >
+              </li>
+            </ul>
+            <!-- Btn Get Started -->
+            <button class="nav-btn modal-btn-blue" type="button">
+              Get started
+            </button>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- Hero -->
-      <section class="hero">
-        <p class="subtitle">PLAN YOUR LIFE</p>
-        <h1 class="hero-title">
-          Increase your <span class="hero-title-bold">productivity</span>
-        </h1>
-        <p class="text">
-          Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
-          atqui laudem an, insolens gubergren similique est cu. Et vel modus
-          congue vituperata.
-        </p>
-        <a class="btn-play" href="/">
-          <img src="./images/play-button.svg" alt=""
-        /></a>
+      <section class="hero-page">
+        <div class="hero-wrapper container">
+          <p class="subtitle">PLAN YOUR LIFE</p>
+          <h1 class="hero-title">
+            Increase your <span class="hero-title-bold">productivity</span>
+          </h1>
+          <div class="hero-text-wrapper">
+            <p class="hero-text text">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata.
+            </p>
+          </div>
+          <a class="btn-play" href="/">
+            <img src="./images/play-button.svg" alt=""
+          /></a>
+        </div>
       </section>
       <!-- Our partners -->
       <section class="partners">
-        <h2 hidden class="title">Our partners</h2>
-        <ul class="partners-list list">
-          <li class="partners-item">
-            <a class="partners-logo" href="/"
-              ><img src="./images/bitbucket.svg" alt="partner1"
-            /></a>
-          </li>
-          <li class="partners-item">
-            <a class="partners-logo" href="/"
-              ><img src="./images/apple-watch.svg" alt="partner1"
-            /></a>
-          </li>
-          <li class="partners-item">
-            <a class="partners-logo" href="/"
-              ><img src="./images/facebook-p.svg" alt="partner1"
-            /></a>
-          </li>
-          <li class="partners-item">
-            <a class="partners-logo" href="/"
-              ><img src="./images/atlassian.svg" alt="partner1"
-            /></a>
-          </li>
-          <li class="partners-item">
-            <a class="partners-logo" href="/"
-              ><img src="./images/audi.svg" alt="partner1"
-            /></a>
-          </li>
-        </ul>
+        <div class="partners-wrapper container">
+          <h2 class="visually-hidden title">Our partners</h2>
+          <ul class="partners-list list">
+            <li class="partners-item">
+              <a class="partners-logo" href="/"
+                ><img src="./images/bitbucket.svg" alt="partner1"
+              /></a>
+            </li>
+            <li class="partners-item">
+              <a class="partners-logo" href="/"
+                ><img src="./images/apple-watch.svg" alt="partner1"
+              /></a>
+            </li>
+            <li class="partners-item">
+              <a class="partners-logo" href="/"
+                ><img src="./images/facebook-p.svg" alt="partner1"
+              /></a>
+            </li>
+            <li class="partners-item">
+              <a class="partners-logo" href="/"
+                ><img src="./images/atlassian.svg" alt="partner1"
+              /></a>
+            </li>
+            <li class="partners-item">
+              <a class="partners-logo" href="/"
+                ><img src="./images/audi.svg" alt="partner1"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Plan and manage -->
       <section class="plan-manage">
-        <p class="subtitle">DESKTOP AND MOBILE APP</p>
-        <h2 class="title">Plan and manage</h2>
-        <p class="text">
-          Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
-          atqui laudem an, insolens gubergren similique est cu. Et vel modus
-          congue vituperata. Solum patrioque no sea. Mea ex malis mollis
-          oporteat. Eum an expetenda consequat.
-        </p>
-        <button class="modal-btn-blue" type="button">View video</button>
-        <form action="#" rel="noreferrer noopene" target="_blank">
-          <button class="modal-btn-stroke">See features</button>
-        </form>
-
-        <img src="./images/img-features.svg" alt="Features example" />
+        <div class="plan-manage-wrapper container">
+          <div class="plan-manage-left">
+            <p class="subtitle">DESKTOP AND MOBILE APP</p>
+            <h2 class="plan-manage-title title">Plan and manage</h2>
+            <p class="plan-manage-text text">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata. Solum patrioque no sea. Mea ex malis
+              mollis oporteat. Eum an expetenda consequat.
+            </p>
+            <div class="plan-manage-btn">
+              <button class="modal-btn-blue" type="button">View video</button>
+              <form action="#" rel="noreferrer noopene" target="_blank">
+                <button class="modal-btn-stroke">See features</button>
+              </form>
+            </div>
+          </div>
+          <img src="./images/img-features.png" alt="Features example" />
+        </div>
       </section>
       <!-- About us -->
       <section class="about-us">
-        <p class="subtitle">ABOUT US</p>
-        <h2 class="title">Read about our app</h2>
-        <ul class="about-us-list list">
-          <li class="about-us-item">
-            <img
-              class="about-us-icon"
-              src="./img-about-us/img-38.svg"
-              alt="Overview"
-            />
-            <h3 class="about-us-title">Overview</h3>
-            <p class="about-us-text">
-              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
-            </p>
-          </li>
-          <li class="about-us-item">
-            <img
-              class="about-us-icon"
-              src="./img-about-us/img-39.svg"
-              alt="Files"
-            />
-            <h3 class="about-us-title">Files</h3>
-            <p class="about-us-text">
-              No vim nulla vitae intellegat. Ei enim error ius, solet atomorum
-              conceptam ex has.
-            </p>
-          </li>
-          <li class="about-us-item">
-            <img
-              class="about-us-icon"
-              src="./img-about-us/img-40.svg"
-              alt="Meeting-chats"
-            />
-            <h3 class="about-us-title">Meeting chats</h3>
-            <p class="about-us-text">
-              Vim ne tacimates neglegentur. Erat diceret omittam at est.
-            </p>
-          </li>
-          <li class="about-us-item">
-            <img
-              class="about-us-icon"
-              src="./img-about-us/img-41.svg"
-              alt="Save-events"
-            />
-            <h3 class="about-us-title">Save events</h3>
-            <p class="about-us-text">Nisl idque mel ea, nominati voluptatum.</p>
-          </li>
-        </ul>
-        <form action="#" rel="noreferrer noopene" target="_blank">
-          <button class="modal-btn-pink">Read more</button>
-        </form>
-        <p class="text-between-btn">OR</p>
-        <form action="#" rel="noreferrer noopene" target="_blank">
-          <button class="modal-btn-blue">Get started</button>
-        </form>
+        <div class="about-us-wrapper container">
+          <p class="subtitle">ABOUT US</p>
+          <h2 class="about-us-main-title">Read about our app</h2>
+          <ul class="about-us-list list">
+            <li class="about-us-item">
+              <img
+                class="about-us-icon"
+                src="./img-about-us/img-38.svg"
+                alt="Overview"
+              />
+              <h3 class="about-us-title">Overview</h3>
+              <p class="about-us-text">
+                Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              </p>
+            </li>
+            <li class="about-us-item">
+              <img
+                class="about-us-icon"
+                src="./img-about-us/img-39.svg"
+                alt="Files"
+              />
+              <h3 class="about-us-title">Files</h3>
+              <p class="about-us-text">
+                No vim nulla vitae intellegat. Ei enim error ius, solet atomorum
+                conceptam ex has.
+              </p>
+            </li>
+            <li class="about-us-item">
+              <img
+                class="about-us-icon"
+                src="./img-about-us/img-40.svg"
+                alt="Meeting-chats"
+              />
+              <h3 class="about-us-title">Meeting chats</h3>
+              <p class="about-us-text">
+                Vim ne tacimates neglegentur. Erat diceret omittam at est.
+              </p>
+            </li>
+            <li class="about-us-item">
+              <img
+                class="about-us-icon"
+                src="./img-about-us/img-41.svg"
+                alt="Save-events"
+              />
+              <h3 class="about-us-title">Save events</h3>
+              <p class="about-us-text">
+                Nisl idque mel ea, nominati voluptatum.
+              </p>
+            </li>
+          </ul>
+          <div class="about-us-btn">
+            <form action="#" rel="noreferrer noopene" target="_blank">
+              <button class="modal-btn-pink">Read more</button>
+            </form>
+            <p class="text-between-btn">OR</p>
+            <form action="#" rel="noreferrer noopene" target="_blank">
+              <button class="modal-btn-blue">Get started</button>
+            </form>
+          </div>
+        </div>
       </section>
       <!-- Our customers and users -->
       <section class="customers-users">
-        <h2 hidden class="title">Our customer and users</h2>
-        <ul class="customers-users-list list">
-          <li class="customers-users-item">
-            <img
-              class="customers-users-icon"
-              src="./img-customers/custom.svg"
-              alt="icon-customers"
-            />
-            <p class="customers-users-title-left">89%</p>
-            <p class="customers-users-text-left">
-              Customers who have increased their productivity
-            </p>
-          </li>
-          <li class="customers-users-item">
-            <img
-              class="customers-users-icon"
-              src="./img-customers/users.svg"
-              alt="icon-users"
-            />
-            <p class="customers-users-title-right">3123</p>
-            <p class="customers-users-text-right">
-              Users who have used our application
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden class="title">Our customer and users</h2>
+          <ul class="customers-users-list list">
+            <li class="customers-users-item">
+              <img
+                class="customers-users-icon"
+                src="./img-customers/custom.svg"
+                alt="icon-customers"
+              />
+              <p class="customers-users-title-left">89%</p>
+              <p class="customers-users-text-left">
+                Customers who have increased their productivity
+              </p>
+            </li>
+            <li class="customers-users-item">
+              <img
+                class="customers-users-icon"
+                src="./img-customers/users.svg"
+                alt="icon-users"
+              />
+              <p class="customers-users-title-right">3123</p>
+              <p class="customers-users-text-right">
+                Users who have used our application
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Our blog -->
       <section>
