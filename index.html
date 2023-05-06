@@ -153,7 +153,7 @@
       <section class="plan-manage">
         <div class="plan-manage-wrapper container">
           <div class="plan-manage-left">
-            <p class="subtitle">DESKTOP AND MOBILE APP</p>
+            <p class="plan-manage-subtitle subtitle">DESKTOP AND MOBILE APP</p>
             <h2 class="plan-manage-title title">Plan and manage</h2>
             <p class="plan-manage-text text">
               Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
@@ -236,10 +236,10 @@
       </section>
       <!-- Our customers and users -->
       <section class="customers-users">
-        <div class="container">
-          <h2 hidden class="title">Our customer and users</h2>
+        <div class="customers-users-wrapper container">
+          <h2 class="visually-hidden">Our customer and users</h2>
           <ul class="customers-users-list list">
-            <li class="customers-users-item">
+            <li class="customers-users-item-left">
               <img
                 class="customers-users-icon"
                 src="./img-customers/custom.svg"
@@ -250,7 +250,7 @@
                 Customers who have increased their productivity
               </p>
             </li>
-            <li class="customers-users-item">
+            <li class="customers-users-item-right">
               <img
                 class="customers-users-icon"
                 src="./img-customers/users.svg"
@@ -265,47 +265,57 @@
         </div>
       </section>
       <!-- Our blog -->
-      <section>
-        <p class="subtitle">OUR RESOURCES</p>
-        <h2 class="title">Start reading our blog</h2>
-        <ul class="our-blog-list list">
-          <li class="our-blog-item">
-            <img
-              class="our-blog-photo-1"
-              src="./img-our-blog/blog-1.svg"
-              alt="note-with-pencil"
-            />
-          </li>
-          <li class="our-blog-item">
-            <img
-              class="our-blog-photo-2"
-              src="./img-our-blog/blog-2.svg"
-              alt="laptop-with-coffee-and-milk"
-            />
-          </li>
-          <li class="our-blog-item">
-            <img
-              class="our-blog-photo-3"
-              src="./img-our-blog/blog-3.svg"
-              alt="man-looking-at-board"
-            />
-          </li>
-        </ul>
-        <h3 class="our-blog-title">How to start planning</h3>
-        <p class="text">
-          Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu
-          vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
-          Natum petentium principes mei ea. Tota everti periculis vis ei, quas
-          tibique pro at, eos ut decore ...
-        </p>
-        <ul class="about-us-link list">
-          <li>
-            <form action="#" rel="noreferrer noopene" target="_blank">
-              <button class="modal-btn-blue">Read now</button>
-            </form>
-          </li>
-          <li><a class="text-link link" href="#">Add to your bookmarks</a></li>
-        </ul>
+      <section class="our-blog">
+        <div class="our-blog-wrapper container">
+          <p class="subtitle">OUR RESOURCES</p>
+          <h2 class="our-blog-title title">Start reading our blog</h2>
+          <div class="our-blog-photo-wrapper">
+            <div class="our-blog-left">
+              <ul class="our-blog-list list">
+                <li class="our-blog-item">
+                  <img
+                    class="our-blog-photo-1"
+                    src="./img-our-blog/blog-1.svg"
+                    alt="note-with-pencil"
+                  />
+                </li>
+                <div class="photo-left">
+                  <li class="our-blog-item">
+                    <img
+                      class="our-blog-photo-2"
+                      src="./img-our-blog/blog-2.svg"
+                      alt="laptop-with-coffee-and-milk"
+                    />
+                  </li>
+                  <li class="our-blog-item">
+                    <img
+                      class="our-blog-photo-3"
+                      src="./img-our-blog/blog-3.svg"
+                      alt="man-looking-at-board"
+                    />
+                  </li>
+                </div>
+              </ul>
+            </div>
+            <div class="our-blog-right">
+              <h3 class="our-blog-right-title">How to start planning</h3>
+              <p class="our-blog-right-text text">
+                Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
+                usu vidit tractatos, vero tractatos ius an, in mel diceret
+                persecuti. Natum petentium principes mei ea. Tota everti
+                periculis vis ei, quas tibique pro at, eos ut decore ...
+              </p>
+              <div class="plan-manage-btn">
+                <button class="modal-btn-blue" type="button">Read now</button>
+                <form action="#" rel="noreferrer noopene" target="_blank">
+                  <button class="modal-btn-stroke">
+                    Add to your bookmarks
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Review -->
       <section class="review">

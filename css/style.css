@@ -175,7 +175,7 @@ body {
 
 .nav-link {
   font-family: var(--secondary-font);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
   display: flex;
@@ -220,7 +220,9 @@ body {
 }
 
 .hero-page {
-  background: linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+  background-image: url(/img-about-us/hero-img.png),
+    linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+  background-size: cover;
   border-top: 1px solid #d8e3fe;
   border-bottom: 1px solid #d8e3fe;
 }
@@ -286,6 +288,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 36px;
 }
 
 .plan-manage-wrapper {
@@ -416,24 +419,56 @@ body {
 
 /*=============== Customers/Users ========== */
 
+.customers-users-item-left {
+  margin-right: 90px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 248px;
+}
+
+.customers-users-item-right {
+  margin-left: 90px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 248px;
+}
+
+.customers-users {
+  background-image: linear-gradient(to right, #4c85ff 50%, #d2e1ff 50%);
+}
+
+.customers-users-wrapper {
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+.customers-users-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .customers-users-title-left {
   font-family: var(--secondary-font);
   font-weight: 400;
   font-size: 48px;
   line-height: 83px;
-  /* text-align: right; */
+  text-align: right;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .customers-users-text-left {
-  font-family: var(--secondary-font);
+  font-family: 'Quicksand';
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 1.28;
-  /* text-align: right; */
+  line-height: 23px;
+  text-align: right;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .customers-users-title-right {
@@ -441,17 +476,16 @@ body {
   font-weight: 400;
   font-size: 48px;
   line-height: 83px;
-  /* text-align: right; */
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 .customers-users-text-right {
-  font-family: var(--secondary-font) f;
+  font-family: 'Quicksand';
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 1.28;
-  /* text-align: right; */
+  line-height: 23px;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -460,11 +494,86 @@ body {
 
 /*=============== Our blog ================ */
 
-.our-blog-title {
+.our-blog-photo-1,
+.our-blog-photo-2,
+.our-blog-photo-3 {
+  box-shadow: 0px 15px 100px 0 #d2e1ff;
+  border-radius: 5px;
+}
+
+.about-us-link {
+  display: inline;
+  align-items: center;
+}
+
+.our-blog-right-text {
+  display: block;
+  width: 420px;
+  margin-bottom: 30px;
+}
+
+.our-blog-right-title {
+  margin-bottom: 32px;
   font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 1.25;
+  line-height: 45px;
+  color: #3d4f9f;
+}
+
+.our-blog-left {
+  padding: 63px 0 63px 35px;
+}
+
+.our-blog-right {
+  padding: 63px 35px 63px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.our-blog-list {
+  gap: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-left {
+  gap: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-blog-photo-wrapper {
+  justify-content: center;
+  gap: 67px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  background: #ffffff;
+  border: 1px solid #d8e3fe;
+  box-shadow: 0px 15px 50px #eff4ff;
+}
+
+.our-blog-wrapper {
+  padding-top: 103px;
+  padding-bottom: 103px;
+}
+
+.our-blog {
+  background-color: #f5f8ff;
+}
+
+.our-blog-title {
+  margin-bottom: 92px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
   text-align: center;
   color: var(--primary-text-color);
 }
