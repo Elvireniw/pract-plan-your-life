@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -319,38 +319,42 @@
       </section>
       <!-- Review -->
       <section class="review">
-        <h2 class="subtitle">TESTIMONIALS</h2>
-        <h3 class="review-title">Customers's quotes</h3>
-        <p class="text">
-          Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
-          atqui laudem an.
-        </p>
-        <ul class="review-list list">
-          <li class="review-item">
-            <p class="text">
-              Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
-              usu vidit tractatos, vero tractatos ius an, in mel diceret
-              persecuti.
+        <div class="review-wrapper container">
+          <div class="review-text-wrapper">
+            <h2 class="review-subittle subtitle">TESTIMONIALS</h2>
+            <h3 class="review-title">Customers's quotes</h3>
+            <p class="text-left text">
+              Brute laoreet efficiendi id his, eaillumnonumes luptatum pro. Usu
+              atqui laudem an.
             </p>
-            <img
-              class="review-photo"
-              src="./img-testimon/photo-1.svg"
-              alt="photo"
-            />
-          </li>
-          <li class="review-item">
-            <p class="text">
-              Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
-              usu vidit tractatos, vero tractatos ius an, in mel diceret
-              persecuti.
-            </p>
-            <img
-              class="review-photo"
-              src="./img-testimon/photo-1.svg"
-              alt="photo"
-            />
-          </li>
-        </ul>
+          </div>
+          <ul class="review-list list">
+            <li class="review-item">
+              <p class="text-review text">
+                Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
+                usu vidit tractatos, vero tractatos ius an, in mel diceret
+                persecuti.
+              </p>
+              <img
+                class="review-photo"
+                src="./img-testimon/photo-1.svg"
+                alt="photo"
+              />
+            </li>
+            <li class="review-item">
+              <p class="text">
+                Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu
+                usu vidit tractatos, vero tractatos ius an, in mel diceret
+                persecuti.
+              </p>
+              <img
+                class="review-photo"
+                src="./img-testimon/photo-1.svg"
+                alt="photo"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Customer help -->
       <section class="help">
@@ -395,110 +399,133 @@
       </section>
       <!-- Get started now -->
       <section class="get-started">
-        <p class="get-started-subtitle">PLAN YOUR LIFE</p>
-        <h2 class="get-started-title">
-          Get <span class="get-started-title-bold">started</span> now
-        </h2>
-        <p class="get-started-text">
-          Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
-          atqui laudem an, insolens gubergren similique est cu. Et vel modus
-          congue vituperata.
-        </p>
-        <ul class="get-started-btn list">
-          <li>
-            <button class="modal-btn-stroke-white" type="button">
-              View pricing
-            </button>
-          </li>
-          <li>
-            <form action="#" rel="noreferrer noopene" target="_blank">
-              <button class="modal-btn-stroke-white">Read documentation</button>
-            </form>
-          </li>
-        </ul>
+        <div class="get-started-wrapper container">
+          <p class="get-started-subtitle">PLAN YOUR LIFE</p>
+          <h2 class="get-started-title">
+            Get <span class="get-started-title-bold">started</span> now
+          </h2>
+          <p class="get-started-text">
+            Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
+            atqui laudem an, insolens gubergren similique est cu. Et vel modus
+            congue vituperata.
+          </p>
+          <ul class="get-started-btn list">
+            <li>
+              <button class="modal-btn-stroke-white" type="button">
+                View pricing
+              </button>
+            </li>
+            <li>
+              <form action="#" rel="noreferrer noopene" target="_blank">
+                <button class="modal-btn-stroke-white">
+                  Read documentation
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Sign up -->
       <section class="sign-up">
-        <h2 class="sign-up-title">Sign up for newsletter</h2>
-        <p class="sign-up-text">
-          Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
-          alterum.
-        </p>
-        <button type="button">Save me</button>
+        <div class="sign-up-wrapper container">
+          <div class="sign-up-left">
+            <h2 class="sign-up-title">Sign up for newsletter</h2>
+            <p class="sign-up-text">
+              Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
+              alterum.
+            </p>
+          </div>
+          <div class="sign-up-right">
+            <form>
+              <label
+                >Введите имя
+                <input type="text" />
+              </label>
+            </form>
+
+            <button type="button">Save me</button>
+          </div>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer>
-      <nav class="page-nav">
-        <!-- Logo -->
-        <a class="logo-link link" href="./index.html"
-          >Plan<span class="logo-color">Y</span></a
-        >
-        <!-- Navigation -->
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="./index.html">Documentation</a>
-          </li>
-        </ul>
-        <!-- Social network -->
-        <ul class="social-list list">
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://www.facebook.com/"
-              aria-label="Facebook link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Facebook</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://telegram.org/"
-              aria-label="Telegram link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Telegram</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://twitter.com/"
-              aria-label="twitter link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Twitter</a
-            >
-          </li>
-          <li class="social-item">
-            <a
-              class="social-link link"
-              href="https://m.com/"
-              aria-label="M link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >M</a
-            >
-          </li>
-        </ul>
-        <!-- Btn Get Started -->
-        <button class="modal-btn-blue" type="button">Get started</button>
-      </nav>
-      <p class="footer-text">Copyright &copy; 2018 by Random site</p>
+      <div class="container">
+        <nav class="page-nav">
+          <!-- Logo -->
+          <a class="logo-link link" href="./index.html"
+            >Plan<span class="logo-color">Y</span></a
+          >
+          <!-- Navigation -->
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./index.html">Documentation</a>
+            </li>
+          </ul>
+          <!-- Social network -->
+          <div class="social-btn">
+            <ul class="social-list list">
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://www.facebook.com/"
+                  aria-label="Facebook link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://telegram.org/"
+                  aria-label="Telegram link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Telegram</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://twitter.com/"
+                  aria-label="twitter link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link link"
+                  href="https://m.com/"
+                  aria-label="M link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >M</a
+                >
+              </li>
+            </ul>
+            <!-- Btn Get Started -->
+            <button class="nav-btn modal-btn-blue" type="button">
+              Get started
+            </button>
+          </div>
+        </nav>
+        <p class="footer-text">Copyright &copy; 2018 by Random site</p>
+      </div>
     </footer>
   </body>
 </html>

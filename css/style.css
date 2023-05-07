@@ -593,7 +593,47 @@ body {
 
 /*=============== Review ================== */
 
+/* .review-photo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-review {
+  margin-right: auto;
+  margin-left: auto;
+  width: 424px;
+  background: #ffffff;
+  border: 1px solid #d8e3fe;
+  box-shadow: 0px 5px 50px #f3f5fa;
+  padding: 41px 70px 53px 70px;
+}
+
+.text-left {
+  display: block;
+  width: 330px;
+}
+
+.review-subittle {
+  margin-bottom: 31px;
+} */
+
+/* .review-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+.review-wrapper {
+  display: flex;
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
+.review {
+  background: linear-gradient(180deg, #eaf0ff 0%, #f6f9ff 100%);
+}
+
 .review-title {
+  margin-bottom: 14px;
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 36px;
@@ -617,32 +657,50 @@ body {
 
 /*=============== Get Started ============= */
 
+.get-started {
+  background-image: url(/images/clouds-get-started.png),
+    linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+  background-position: 50% 50%;
+}
+
+.get-started-wrapper {
+  padding-top: 91px;
+  padding-bottom: 91px;
+}
+
 .get-started-subtitle {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 10px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .get-started-text {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 710px;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.93;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #FFFFFFr); */
+  color: #ffffff;
 }
 
 .get-started-title {
+  margin-bottom: 28px;
   font-family: var(--secondary-font);
   font-weight: 300;
   font-size: 48px;
   line-height: 1.25;
   text-align: center;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .get-started-title-bold {
@@ -651,19 +709,25 @@ body {
   font-size: 48px;
   line-height: 1.25;
   text-align: center;
-  /* color: #FFFFFF; */
+  color: #ffffff;
+}
+
+.get-started-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-btn-stroke-white {
+  padding: 13px 15px;
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 13px;
   line-height: 1.23;
-  width: 113px;
   height: 43px;
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid white;
+  border: 1px solid white;
   color: white;
 }
 
@@ -677,7 +741,65 @@ body {
 
 /*=============== Sign Up ================= */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.custom-field {
+  font-size: 14px;
+  position: relative;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: 12px;
+  bottom: 50%;
+  top: 22px;
+  transform: translateY(-50%);
+  width: calc(100% - 24px);
+  color: #aaa;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sign-up-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 118px;
+  margin-bottom: 118px;
+}
+
+.sign-up-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sign-up {
+  background: #fcfdff;
+  border-top: 1px solid #d8e3fe;
+  border-bottom: 1px solid #d8e3fe;
+}
+
 .sign-up-title {
+  margin-bottom: 18px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 18px;
@@ -687,6 +809,8 @@ body {
 }
 
 .sign-up-text {
+  display: block;
+  width: 330px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.93;
@@ -699,6 +823,8 @@ body {
 /*=============== Footer= ================= */
 
 .footer-text {
+  margin-top: 42px;
+  padding-bottom: 93px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
